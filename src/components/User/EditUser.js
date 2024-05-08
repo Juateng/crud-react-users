@@ -9,7 +9,7 @@ const EditUser = () => {
   const [isLoading, setIsLoading] = useState(false);
   const { id } = useParams();
   const navigate = useNavigate();
-  const getUserApi = "http://localhost:3001/usuarios";
+  const getUserApi = "https://juanbalamcrud-fasapi.azurewebsites.net/libros/";
 
   useEffect(() => {
     getUser();

@@ -4,7 +4,7 @@ import Loader from '../Common/Loader';
 import './User.css';
 const CreateUser = () => {
     const navigate = useNavigate();
-    const createUserApi = "http://localhost:3001/usuarios/"
+    const createUserApi = "https://juanbalamcrud-fasapi.azurewebsites.net/libros/"
     //sustituir el localhost con la url de la api deployada
     //const createUserApi = process.env.API_URL + //"http://localhost:3001/usuarios/"
     const [error, setError] = useState(null);
