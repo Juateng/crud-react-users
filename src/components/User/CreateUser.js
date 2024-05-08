@@ -5,6 +5,7 @@ import './User.css';
 const CreateUser = () => {
     const navigate = useNavigate();
     const createUserApi = "http://localhost:3001/usuarios/"
+    //const createUserApi = process.env.API_URL + //"http://localhost:3001/usuarios/"
     const [error, setError] = useState(null);
     const [isLoading, setIsLoading] = useState(false);
     const [user, setUser] = useState({

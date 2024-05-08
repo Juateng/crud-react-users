@@ -15,7 +15,7 @@ const EditUser = () => {
     axios
       .get(getUserApi.concat("/") + id)
       .then((item) => {
-        setUser(item.data);
+        setUser(item.data.data);
       })
       .catch((err) => {
         console.log(err);
@@ -29,7 +29,6 @@ const EditUser = () => {
       <tr>
         <th>Firstname</th>
         <th>Lastname</th>
-        
       </tr>
     </thead>
     <tbody>
