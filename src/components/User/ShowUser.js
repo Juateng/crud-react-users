@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import Loader from "../Common/Loader";
 
 const ShowUser = () => {
-  const showUserApi = "https://juanbalamcrud-fasapi.azurewebsites.net/libros/";
+  const showUserApi = "https://balam-fastapi-usuarios.azurewebsites.net/usuarios/";
 
   const [user, setUser] = useState([]);
   const [isLoading, setIsLoading] = useState(false);

@@ -5,7 +5,7 @@ import "./User.css";
 const EditUser = () => {
   const [user, setUser] = useState([]);
   const { id } = useParams();
-  const getUserApi = "https://juanbalamcrud-fasapi.azurewebsites.net/libros/";
+  const getUserApi = "https://balam-fastapi-usuarios.azurewebsites.net/usuarios/";
 
   useEffect(() => {
     getUser();
